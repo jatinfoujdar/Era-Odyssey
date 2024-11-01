@@ -1,0 +1,24 @@
+
+[
+    {
+        "id": 1,
+        "name": "Ancient Egypt",
+        "image": "pyramids",
+        "description": "The civilization of Ancient Egypt, known for its pyramids and pharaohs, was one of the most influential in history.",
+        "keyDates": ["3150 BC", "30 BC"]
+    },
+    {
+        "id": 2,
+        "name": "Renaissance",
+        "image": "renaissance",
+        "description": "The Renaissance was a period of great cultural and scientific rebirth that spanned the 14th to the 17th century.",
+        "keyDates": ["1300", "1600"]
+    },
+    {
+        "id": 3,
+        "name": "Industrial Revolution",
+        "image": "machinery",
+        "description": "The Industrial Revolution marked the transition to new manufacturing processes in Europe and the US.",
+        "keyDates": ["1760", "1840"]
+    }
+]
