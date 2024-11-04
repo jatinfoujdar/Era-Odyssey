@@ -23,4 +23,5 @@ struct EraViews: View {
 
 #Preview {
     EraViews(era: eraModel[0])
+    EraViews(era: eraModel[1])
 }
