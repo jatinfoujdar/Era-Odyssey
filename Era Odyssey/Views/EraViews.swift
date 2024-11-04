@@ -8,13 +8,15 @@
 import SwiftUI
 
 struct EraViews: View {
-    let era : EraModel
+    var era : EraModel
     var body: some View {
-        VStack{
+        HStack{
             Image(era.image)
-            .resizable()
-            .scaledToFit()
-            .frame(height: 200)
+                .resizable()
+                .frame(width: 50, height: 50)
+            Text(era.name)
+            
+            Spacer()
         }
     }
 }
