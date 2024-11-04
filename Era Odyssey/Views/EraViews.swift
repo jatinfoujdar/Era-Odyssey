@@ -20,5 +20,5 @@ struct EraViews: View {
 }
 
 #Preview {
-    EraViews(era: EraModel(id: 1, name: "Ancient Egypt", image: "pyramids", description: "The civilization of Ancient Egypt, known for its pyramids and pharaohs, was one of the most influential in history.", keyDates: ["3150 BC", "30 BC"]))
+    EraViews(era: eraModel[0])
 }
