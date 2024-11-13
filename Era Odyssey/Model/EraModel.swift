@@ -12,7 +12,14 @@ struct EraModel: Identifiable, Codable {
     let name: String
     let image: String
     let description: String
-    let keyDates: [String]
+    let keyDates: Date
+}
+
+struct Question {
+    let id: Int
+    let text: String
+    let options: [String]
+    let correctAnswer: String
 }
 
 
